@@ -1,0 +1,15 @@
+{
+  "name": "A_s43",
+  "kind": "A",
+  "seed": 43,
+  "config": null,
+  "best_epoch": 12,
+  "val_miou": 0.7260609133666671,
+  "hours": 0.6801735915740331,
+  "ms_per_image_median": 27.01595699909376,
+  "split_hash": "88bac64efb8e",
+  "params": {
+    "learning_rate": 0.00539503096667023,
+    "weight_decay": 3.968793330444374e-05
+  }
+}

@@ -37,11 +37,11 @@
     0.225
   ],
   "pad_multiple": 32,
-  "checkpoint": "deeplabv3plus_r101_final_lokal.pt",
+  "checkpoint": "deeplabv3plus_r101_final_local.pt",
   "params": {
     "learning_rate": 0.00539503096667023,
     "weight_decay": 3.968793330444374e-05
   },
   "best_epoch": 11,
-  "train_data": "3956 Jepang + 150 lokal (p_local=0.1)"
+  "train_data": "3956 Japan + 150 local (p_local=0.1)"
 }

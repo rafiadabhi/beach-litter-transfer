@@ -1,0 +1,15 @@
+{
+  "name": "B_s42_c4",
+  "kind": "B",
+  "seed": 42,
+  "config": 4,
+  "best_epoch": 11,
+  "val_miou": 0.7229260922859221,
+  "hours": 0.6787383531861835,
+  "ms_per_image_median": 26.88728299926879,
+  "split_hash": "88bac64efb8e",
+  "params": {
+    "learning_rate": 0.00539503096667023,
+    "weight_decay": 3.968793330444374e-05
+  }
+}

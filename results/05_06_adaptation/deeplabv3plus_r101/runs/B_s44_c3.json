@@ -1,0 +1,15 @@
+{
+  "name": "B_s44_c3",
+  "kind": "B",
+  "seed": 44,
+  "config": 3,
+  "best_epoch": 12,
+  "val_miou": 0.7237418339141305,
+  "hours": 0.6291561449898614,
+  "ms_per_image_median": 26.955456000905542,
+  "split_hash": "88bac64efb8e",
+  "params": {
+    "learning_rate": 0.00539503096667023,
+    "weight_decay": 3.968793330444374e-05
+  }
+}
