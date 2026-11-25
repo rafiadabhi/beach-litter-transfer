@@ -1,0 +1,9 @@
+*.pt
+*.pth
+*.npz
+*.db
+cache/
+cache_512/
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store

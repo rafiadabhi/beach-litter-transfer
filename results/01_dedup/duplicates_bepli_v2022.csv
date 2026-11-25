@@ -1,4 +1,4 @@
-file_bepli,file_v2022,size_bepli,size_v2022,hamming,mad,sama
+file_bepli,file_v2022,size_bepli,size_v2022,hamming,mad,identical
 000001.png,000000.jpg,765x575,765x575,0,0.0,True
 000002.png,000003.jpg,765x575,765x575,0,0.0,True
 000007.png,000004.jpg,743x557,743x557,0,0.0,True
