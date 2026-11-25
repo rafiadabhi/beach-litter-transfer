@@ -1,0 +1,11 @@
+{
+  "study": "deeplabv3plus_r101_3929870b37",
+  "signature": "3929870b37",
+  "value": 0.7156323002144215,
+  "params": {
+    "learning_rate": 0.00539503096667023,
+    "weight_decay": 3.968793330444374e-05
+  },
+  "best_epoch": 6,
+  "finished_trials": 12
+}
