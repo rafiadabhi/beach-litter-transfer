@@ -1,0 +1,47 @@
+{
+  "model": "DeepLabV3+",
+  "smp_class": "DeepLabV3Plus",
+  "encoder": "resnet101",
+  "encoder_output_stride": 16,
+  "classes": [
+    "background",
+    "artificial",
+    "natural"
+  ],
+  "palette_rgb": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      255,
+      0,
+      0
+    ],
+    [
+      0,
+      255,
+      0
+    ]
+  ],
+  "short_side": 512,
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "pad_multiple": 32,
+  "checkpoint": "deeplabv3plus_r101_final_lokal.pt",
+  "params": {
+    "learning_rate": 0.00539503096667023,
+    "weight_decay": 3.968793330444374e-05
+  },
+  "best_epoch": 11,
+  "train_data": "3956 Jepang + 150 lokal (p_local=0.1)"
+}
