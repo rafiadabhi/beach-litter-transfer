@@ -1,0 +1,16 @@
+{
+  "pretrained": "facebook/mask2former-swin-small-ade-semantic",
+  "lr": 0.0001,
+  "best_epoch": 21,
+  "val_iou": {
+    "background": 0.9655658870603158,
+    "artificial": 0.4378393321847851,
+    "natural": 0.658106469032319
+  },
+  "test_iou": {
+    "background": 0.9638550102497091,
+    "artificial": 0.4599305630609968,
+    "natural": 0.6399584506036129
+  },
+  "test_miou": 0.6879146746381063
+}
