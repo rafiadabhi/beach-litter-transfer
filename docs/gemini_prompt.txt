@@ -1,0 +1,20 @@
+Task: Create a 3-class semantic segmentation ground-truth mask for the attached beach photo, in the style of a manual polygon annotation.
+
+Classes (exactly 3, flat colors only):
+Class 0 = pure black (#000000): sand, sea, sky, shadows, and everything that is not class 1 or 2.
+Class 1 "natural" = pure green (#00FF00): driftwood, branches, twigs, reeds, leaves, seaweed, shells, plant material.
+Class 2 "artificial" = pure red (#FF0000): all man-made objects regardless of their real color [plastic bottles, caps, cups, bags, cans, packaging, fabric, tires, rope, foam, fragments].
+
+Output requirements:
+Same dimensions and aspect ratio as the input. Do not crop, resize, rotate, or shift. Every region must be pixel-aligned with the object in the photo.
+Use ONLY the 3 colors above. Never use an object's real color (a red or orange ball is still #FF0000; never orange, brown, white, or striped). No gradients, shading, texture, outlines, anti-aliasing, or stray pixels of any other color.
+Draw each region as a simplified polygon with hard, straight-segment edges, like a human annotator's polygon, not smooth hand-drawn curves.
+
+Annotation rules:
+Dense piles/tangles of twigs: label the whole pile as ONE solid green region, including the small sand gaps between twigs. Do NOT draw individual twigs or black holes inside a pile.
+2. Artificial items lying on or inside a pile: draw them as solid red polygons on top of the green region.
+3. Isolated twigs, driftwood, and small natural debris on open sand: label each as its own green shape, even if small or thin.
+4. Fill each artificial object completely as one solid red shape. A tire is one solid red region including its hollow center and anything inside it. A coil of rope is one solid red blob, not thin lines.
+5. Scan the ENTIRE image systematically (upper beach, right side, bottom edge, edges of piles) and label every visible isolated item on open sand, including tiny ones. Do not skip small objects.
+6. Natural vs artificial: if unsure, label as natural. If unsure whether it is an object at all, label as black.
+7. Do not invent objects that are not visible. Do not add text, legends, borders, or watermarks.
