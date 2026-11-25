@@ -36,7 +36,7 @@
     0.225
   ],
   "pad_multiple": 32,
-  "checkpoint": "segformer_mit_b3_final_lokal.pt",
+  "checkpoint": "segformer_mit_b3_final_local.pt",
   "params": {
     "learning_rate": 0.00012057126278744778,
     "weight_decay": 0.010401663679887312
@@ -44,5 +44,5 @@
   "tuning_best_trial": 1,
   "tuning_best_val_miou": 0.7516000835153602,
   "best_epoch": 11,
-  "train_data": "3956 Jepang + 150 lokal (p_local=0.1)"
+  "train_data": "3956 Japan + 150 local (p_local=0.1)"
 }
