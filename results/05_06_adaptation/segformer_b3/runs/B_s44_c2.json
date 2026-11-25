@@ -1,0 +1,15 @@
+{
+  "name": "B_s44_c2",
+  "kind": "B",
+  "seed": 44,
+  "config": 2,
+  "best_epoch": 10,
+  "val_miou": 0.7566597972671399,
+  "hours": 0.9112278306484223,
+  "ms_per_image_median": 62.45476549884188,
+  "split_hash": "88bac64efb8e",
+  "params": {
+    "learning_rate": 0.00012057126278744778,
+    "weight_decay": 0.010401663679887312
+  }
+}

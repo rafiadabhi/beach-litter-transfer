@@ -1,0 +1,22 @@
+{
+  "choice": "SegFormer MiT-B3",
+  "checkpoint": [
+    "/kaggle/input/notebooks/muhammadabdu11ah/notebook3c08f6800f/adaptation_segformer_b3/segformer_mit_b3_final_local.pt"
+  ],
+  "min_practical_diff_mIoU": 0.01,
+  "reasons": [
+    "Ensemble (selected w) vs SegFormer only: Δ mIoU litter +0.0011 (CI +0.0005 to +0.0017); Δ total area MAE -0.041 pp (CI -0.084 to +0.003).",
+    "Model B, SegFormer − DeepLab: Δ mIoU litter +0.0407 (CI +0.0350 to +0.0465); seed-std rule: SegFormer MiT-B3.",
+    "Minimum practical difference: 0.01 mIoU litter. Ensemble does not meet the rule; architecture difference meets the rule.",
+    "Median inference time: DeepLab 27.3 ms, SegFormer 60.6 ms, ensemble ≈87.9 ms per image (T4 GPU, short side 512)."
+  ],
+  "recommendation": "Use the SegFormer MiT-B3 F model alone; the ensemble gives no meaningful gain (< 0.01 mIoU litter) over the best single model.",
+  "selected_weight_per_config": {
+    "0": 0.75,
+    "1": 0.75,
+    "2": 0.75,
+    "3": 1.0,
+    "4": 0.75,
+    "5": 0.75
+  }
+}
