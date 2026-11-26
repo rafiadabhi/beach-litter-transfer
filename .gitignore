@@ -7,3 +7,4 @@ cache_512/
 .ipynb_checkpoints/
 __pycache__/
 .DS_Store
+references/
